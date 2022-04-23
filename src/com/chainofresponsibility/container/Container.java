@@ -1,5 +1,6 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.container;
 
+import com.chainofresponsibility.components.Component;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -31,7 +32,7 @@ public abstract class Container extends Component {
      */
     public void add(Component child) {
         children.add(child);
-        child.container = this;
+        child.setContainer(this);
     }
 
     /**

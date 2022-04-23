@@ -1,4 +1,6 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.components;
+
+import com.chainofresponsibility.container.Container;
 
 /**
  * A classe base para componentes simples.
@@ -15,7 +17,14 @@ public abstract class Component implements ComponentWithContextualHelp {
      * responsabilidades do Handlers.
      */
     protected Container container;
-
+    
+    public Container getContainer() {
+        return container;
+    }
+    public void setContainer(Container container) {
+        this.container = container;
+    }        
+        
     /**
      * Construtor do componente.
      *

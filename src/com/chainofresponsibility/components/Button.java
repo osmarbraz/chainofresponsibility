@@ -1,4 +1,4 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.components;
 
 /**
  * Componentes primitivos estão de bom tamanho com a implementação de ajuda

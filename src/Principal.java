@@ -1,7 +1,7 @@
 
-import com.chainofresponsibility.Button;
-import com.chainofresponsibility.Dialog;
-import com.chainofresponsibility.Panel;
+import com.chainofresponsibility.components.Button;
+import com.chainofresponsibility.components.Dialog;
+import com.chainofresponsibility.components.Panel;
 
 public class Principal {
 

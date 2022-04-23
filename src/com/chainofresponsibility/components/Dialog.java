@@ -1,4 +1,6 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.components;
+
+import com.chainofresponsibility.container.Container;
 
 /**
  * Mas componentes complexos podem sobrescrever a implementação padrão. Se o
